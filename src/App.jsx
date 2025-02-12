@@ -1,14 +1,12 @@
-import Card   from './Card.jsx'
+import Student from './Student';
+
 
 function App() {
 
   return(
 
     <>
-      <Card/>     
-      <Card/>     
-      <Card/>     
-      <Card/>     
+        <Student name = "Alex"/>
     </>
   );
 }
