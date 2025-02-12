@@ -40,3 +40,20 @@
   cursor:pointer;
   border: none;
 }
+
+.student{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  width: 400px;
+  color: white;
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+}
+
+.student p{
+  margin: 0;
+}

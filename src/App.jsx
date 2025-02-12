@@ -1,4 +1,3 @@
-import Student from './Student';
 
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
   return(
 
     <>
-        <Student name = "Alex"/>
+
     </>
   );
 }
