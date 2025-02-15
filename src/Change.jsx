@@ -5,7 +5,7 @@ onChange = event handler used primarily with form elements
 
 */
 
-import React, {use, useState} from "react";
+import React, {useState} from "react";
 
 function Change(){
 
@@ -40,7 +40,7 @@ function Change(){
         setDelivery(e.target.value);
     }
 
-
+   
     return(
 
         <>
