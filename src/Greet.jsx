@@ -17,7 +17,7 @@ function Greet(props){
 
 Greet.propTypes = {
 
-    isLoggedIn: 'PropTypes.bool',
+    isLoggedIn: PropTypes.bool,
     username  : PropTypes.string,
 }
 
