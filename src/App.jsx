@@ -1,4 +1,4 @@
-import Counter from "./Counter";
+import Change from "./Change";
 
 function App() {
  
@@ -8,7 +8,7 @@ function App() {
   return(
 
     <>
-      <Counter/>
+      <Change/>
     </>
   );
 }
