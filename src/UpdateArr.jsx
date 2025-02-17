@@ -22,6 +22,12 @@ function UpdateArr(){
         }
     }
 
+    function handleRemoveFood(index){
+
+        //  The underscore represents that element is passed but ignored
+        setFood( food.filter((_,i) => i !== index) );
+    }
+
     return(
 
         <div>
@@ -29,7 +35,9 @@ function UpdateArr(){
             <ul>
                 {food.map((food, index) => (
 
-                    <li key={index}>{food}</li>
+                    <li key={index} onClick={() => handleRemoveFood(index)}>
+                        {food}
+                    </li>
                 ))}
             </ul>
 
