@@ -12,7 +12,7 @@ function UpdateArr(){
 
       if(newFood === "") return;
 
-      setFood([...food,newFood]);
+      setFood(prevFood => [...prevFood,newFood]);
     }
 
     function handleKeyPress(event){
