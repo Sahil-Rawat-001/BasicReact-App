@@ -1,14 +1,12 @@
-import Change from "./Change";
+import UpdateArr from "./UpdateArr"
 
 function App() {
- 
-
                  
 
   return(
 
     <>
-      <Change/>
+      <UpdateArr/>
     </>
   );
 }
