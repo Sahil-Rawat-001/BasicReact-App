@@ -1,4 +1,4 @@
-import UpdateArr from "./UpdateArr"
+import UpdateArrOfObj from "./UpdateArrOfObj"
 
 function App() {
                  
@@ -6,7 +6,7 @@ function App() {
   return(
 
     <>
-      <UpdateArr/>
+      <UpdateArrOfObj/>
     </>
   );
 }
