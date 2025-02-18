@@ -1,12 +1,12 @@
-import UpdateArrOfObj from "./UpdateArrOfObj"
+import WindowSize from "./WindowSize";
 
 function App() {
                  
 
   return(
-
+    
     <>
-      <UpdateArrOfObj/>
+      <WindowSize/>
     </>
   );
 }
