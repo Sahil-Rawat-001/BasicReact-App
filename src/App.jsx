@@ -1,4 +1,5 @@
-import DigitalClock from "./DigitalClock";
+import ComponentA from "./ComponentA";
+
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return(
     
     <>
-      <DigitalClock/>
+      <ComponentA/>
     </>
   );
 }
