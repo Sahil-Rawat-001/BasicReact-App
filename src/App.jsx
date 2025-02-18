@@ -1,4 +1,5 @@
-import ComponentA from "./ComponentA";
+import RefHook from "./RefHook";
+
 
 
 
@@ -8,7 +9,7 @@ function App() {
   return(
     
     <>
-      <ComponentA/>
+      <RefHook/>
     </>
   );
 }

@@ -14,6 +14,7 @@ function ComponentC(){
         <div className="box">
             <h1>Component C</h1>
             <h2>{`Hello, ${user} again `}</h2>
+             
             <ComponentD/>
         </div>
     );
